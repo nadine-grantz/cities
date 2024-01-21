@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 
 export default createGlobalStyle`
   *,
@@ -12,3 +13,9 @@ export default createGlobalStyle`
     font-family: system-ui;
   }
 `;
+
+// export const image = styled.img`
+//   width: 90%;
+//   height: 200px;
+//   margin: 5%;
+// `;
