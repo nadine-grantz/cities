@@ -5,13 +5,14 @@ export default function Cities() {
   return (
     <>
       <h1>Welcome to the biggest Cities</h1>
-      {/* <ul> */}
       {cities.map((city) => (
         <li key={city.id}>
           <Link href={`/cities/${city.slug}`}>{city.name}</Link>
         </li>
       ))}
-      {/* </ul> */}
+      <button>
+        <Link href="../">Back</Link>
+      </button>
     </>
   );
 }
