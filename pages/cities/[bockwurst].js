@@ -22,6 +22,7 @@ export default function OneCity() {
       <h2>{city.country}</h2>
       <p>{city.population}</p>
       <p>{city.description}</p>
+      <img src={city.image} />
       <button>
         <Link href="/cities">Back</Link>
       </button>
