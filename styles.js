@@ -10,12 +10,19 @@ export default createGlobalStyle`
 
   body {
     margin: 0;
-    font-family: system-ui;
+    font-family: Helvetica;
   }
 `;
 
-// export const image = styled.img`
-//   width: 90%;
-//   height: 200px;
-//   margin: 5%;
-// `;
+export const StyledContainer = styled.div`
+  padding: 60px;
+  margin: 100px auto;
+  height: 600px;
+  max-width: 450px;
+  border-radius: 10px;
+  text-align: center;
+`;
+
+export const StyledHead = styled.h1`
+  text-align: center;
+`;
